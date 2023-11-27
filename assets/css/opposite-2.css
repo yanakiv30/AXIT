@@ -1,0 +1,71 @@
+#opposite-2 {
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+   
+  }
+  #opposite-2 .container-up {
+    gap: 20px;
+    max-width: 1170px;
+    min-height: 520px;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 40px;
+    
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    margin: 0 auto;
+  }
+  #opposite-2 .container-down {
+    gap: 20px;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    min-height: 523px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px 1px 10px 77px;
+    box-sizing: border-box;
+  }
+  #opposite-2 h5 {
+    font-size: 20px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 700;
+    font-family: "Open Sans";
+  
+  }
+  #opposite-2 p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  #opposite-2 .image-wrapper {
+    flex: 1 1 46%;
+    text-align: right;
+    margin-top: -83px;
+    
+   
+  }
+  #opposite-2 .image-wrapper img.first {
+    padding-top: 150px;
+    padding-left: 70px;
+    width: 92%;
+  }
+  #opposite-2 .image-wrapper img.second {
+   width: 80%;
+  }
+  #opposite-2 .opposite-text {
+    padding-top: 83px;
+    padding-left: 24px;
+    flex: 1 1 44%;
+    text-align: left;
+  }
+  

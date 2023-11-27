@@ -1,0 +1,42 @@
+.product {
+  background-color: #ffd17e;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+  min-height: 800px;
+}
+
+.product .container {
+  align-items: center;
+}
+
+.product .image-wrapper,
+.product .content-wrapper {
+  flex: 1 1 50%;
+}
+
+.product .image-wrapper {
+  text-align: center;
+}
+
+.product .image-wrapper img {
+  border-radius: 50%;
+  max-width: 65%;
+  width: 100%;
+}
+
+.product .content-wrapper h2 {
+  color: #21243d;
+  margin-bottom: 60px;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+
+.product .content-wrapper p {
+  font-size: 30px;
+  color: #21243d;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-bottom: 70px;
+}

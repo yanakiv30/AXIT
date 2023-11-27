@@ -1,0 +1,36 @@
+#stylish {
+  background-image: url("../images/stylish-bg.png");
+  color: #fff;
+  box-sizing: border-box;
+  min-height: 300px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* margin: 20px 0 23px 0; */
+  padding: 0;
+}
+
+#stylish h3 {
+  text-align: center;
+  padding: 18px 0 20px 0;
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Raleway";}
+
+#stylish > p {
+  font-size: 25px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";  text-align: center;
+  max-width: 70%;
+  margin: 20px auto 22px;
+}
+
+#stylish button.btn-order {
+  background-color: rgba(0, 0, 255, 0);
+  border: 2px white solid;
+}

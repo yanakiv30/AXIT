@@ -1,0 +1,148 @@
+#opposite {
+  background-color: #fff;
+  box-sizing: border-box;
+}
+#opposite .container-up {
+  margin: 0 auto;
+  gap: 170px;
+  max-width: 1100px;
+  min-height: 600px;
+  display: flex;
+  box-sizing: border-box;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
+#opposite .container-down {
+  gap: 20px;
+  max-width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  min-height: 523px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 10px 1px 10px 77px;
+  box-sizing: border-box;
+}
+#opposite h5 {
+  font-size: 20px;
+  line-height: 43px;
+  color: #212121;
+  font-weight: 700;
+  font-family: "Open Sans";
+  
+}
+#opposite p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#opposite .image-wrapper {
+  flex: 0 1 48%;
+  text-align: center;
+  margin-left: -44px;
+}
+#opposite .image-wrapper img.first {
+  padding: 105px 90px 0 10px ;
+  width:100%;
+}
+#opposite .image-wrapper img.second {
+ width: 80%;
+}
+#opposite .opposite-text {
+  padding-top: 88px;
+  padding-bottom: 55px;
+  flex: 1 1 35%;
+  text-align: left;
+}
+
+#opposite .opposite-text p{ 
+  padding-bottom: 54px;  
+}
+
+#opposite .opposite-text div.img-title-p-wrapper{
+ display: flex;
+ gap: 30px;
+}
+#opposite .opposite-text .plus1-wrapper{
+width: 60px;
+height: 40px;
+border: solid 1px ;
+color: orange;
+border-radius: 50%;
+text-align: center;
+ }
+
+ #opposite .opposite-text .plus1-wrapper img{
+ padding-top: 10px;
+   }
+
+ #opposite .opposite-text .plus2-wrapper{
+  width: 120px;
+  height: 40px;
+  border: solid 1px ;
+  color: orange;
+  border-radius: 50%;
+  text-align: center;
+   }
+   #opposite .opposite-text .plus2-wrapper img{
+    padding-top: 10px;
+      }
+
+#opposite .opposite-text .img-title-p-wrapper p{
+  padding-top: 6px;
+padding-bottom: 29px;
+ }
+ #opposite .title-p h6 {
+  font-size: 14px;
+line-height: 17px;
+color: #212121;
+font-weight: 600;
+font-family: "Open Sans";
+ }
+
+#opposite button.btn-order {
+  text-align: center;
+  padding: 20px 45px 24px 50px;
+  border: none;
+  opacity: 0.902;
+  border-radius: 30px;
+  background-color: #27292c;
+  cursor: pointer;
+
+  font-size: 29px;
+  letter-spacing: 6px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+#opposite button.down {
+  text-align: center;
+  padding: 20px 75px 24px 80px;
+  border: none;
+  opacity: 0.902;
+  border-radius: 30px;
+  background-color: #27292c;
+  cursor: pointer;
+
+  font-size: 23px;
+  letter-spacing: 5px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+.orange-rectangle-wrapper {
+  text-align: unset;
+}

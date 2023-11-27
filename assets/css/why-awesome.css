@@ -1,0 +1,85 @@
+#why-awesome {
+  background-color: white;
+  color: #fff;
+  padding-top: 104px;
+
+  box-sizing: border-box;
+  min-height: 596px;
+}
+#why-awesome .orange-rectangle-wrapper {
+  text-align: center;
+}
+
+#why-awesome h3 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 43px;
+  color: #212121;
+  font-weight: 400;
+  font-family: "Raleway";
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+#why-awesome > p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  max-width: 50%;
+  margin: 20px auto 25px;
+  text-align: center;
+  padding-bottom: 37px;
+}
+
+#why-awesome div.container.menu-list {
+  justify-content: space-evenly;
+  max-width: 1175px;
+}
+
+#why-awesome .menu-item {
+  flex: 1 1 30%;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#why-awesome .menu-item .circle {
+  width: 70px;
+  height: 70px;
+  border: solid 2px;
+  color: orange;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#why-awesome .menu-item img {
+  width: 70px;
+  height: 70px;
+  padding-top: 18px;
+  margin-bottom: 25px;
+  max-width: 27%;
+  max-height: 43%;
+}
+
+#why-awesome .menu-item h4 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  padding-bottom: 18px;
+  padding-top: 20px;
+}
+
+#why-awesome .menu-item p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}

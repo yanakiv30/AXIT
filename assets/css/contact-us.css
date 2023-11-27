@@ -1,0 +1,86 @@
+#contact-us {
+  background-color: white;
+  color: #fff;
+  padding-top: 120px;
+  padding-bottom: 105px;
+  box-sizing: border-box;
+  /* min-height: 610px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.orange-rectangle-wrapper {
+  text-align: center;
+}
+#contact-us h3 {
+  text-align: center;
+  /* padding-bottom: 20px; */
+  font-size: 36px;
+  line-height: 43px;
+  color: #212121;
+  font-family: "Raleway";
+  text-align: center;
+  padding-bottom: 11px;
+}
+
+#contact-us > p {
+  text-align: center;
+  max-width: 50%;
+  margin: 20px auto 30px;
+  padding-bottom: 58px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+#contact-us button.btn-order {
+  margin-top: 14px;
+  padding: 10px 0 15px 0;
+  width: 145px;
+}
+#contact-us .inputs {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  height: 150px;
+  gap: 50px;
+}
+#contact-us .inputs .left {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  height: 100%;
+  justify-content: space-between;
+}
+#contact-us .inputs .right {
+  flex: 1 1;
+  height: 100%;
+}
+#contact-us .inputs textarea {
+  width: 80%;
+  height: 100%;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px #cccccc solid;
+}
+#contact-us .inputs input {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px #cccccc solid;
+}
+
+#contact-us .inputs textarea,
+#contact-us .inputs input,
+#contact-us .inputs textarea::placeholder,
+#contact-us .inputs input::placeholder {
+  font-size: 14px;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-family: "Open Sans";
+}

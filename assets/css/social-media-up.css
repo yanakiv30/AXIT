@@ -1,0 +1,48 @@
+#social-media-up {
+  min-height: 105px;
+  background-color: white;
+  box-sizing: border-box;
+  border-bottom: 2px black solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  padding-left: 150px;
+  padding-right: 127px;
+}
+
+#social-media-up .left {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+}
+
+#social-media-up .left h5 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Open Sans";
+  padding-top: 12px;
+}
+
+#social-media-up .left p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  
+}
+
+#social-media-up .right {
+  flex: 1 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 66px;
+  padding-right: 40px;
+}
+#social-media-up .right a {
+  font-size: 40px;
+  color: #cccccc;
+}
