@@ -1,2 +1,2 @@
 # AXIT-Template 
-## This is a website created from a .PSD file.
+## This is a website created in a pixel-perfect manner from a .PSD file.
